@@ -13,8 +13,8 @@
 
 1. 克隆此仓库：
    ```bash
-   git clone https://github.com/your-username/huggingface-api-proxy.git
-   cd huggingface-api-proxy
+   git clone https://github.com/your-username/hg-api2
+   cd hg-api2
    ```
 
 2. 创建 `.env` 文件并设置您的 API 密钥,访问 https://huggingface.co/settings/tokens/new?globalPermissions=inference.serverless.write&tokenType=fineGrained 创建新的API token,确保选择了 inference.serverless.write 权限：
