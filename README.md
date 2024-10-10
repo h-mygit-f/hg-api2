@@ -25,11 +25,8 @@
 
 3. 使用 Docker Compose 构建和运行服务：
    ```bash
-   docker-compose up --build
+   docker-compose up -d
    ```
 
 4. 服务现在应该在 `http://localhost:5023` 上运行。
 
-## API 使用
-
-发送 POST 请求到 `/v1/chat/completions` 端点，格式如下：
