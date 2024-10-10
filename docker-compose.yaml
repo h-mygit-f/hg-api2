@@ -1,0 +1,9 @@
+version: '3'
+services:
+  huggingface-api:
+    build: .
+    ports:
+      - "5023:5000"
+    environment:
+      - HUGGINGFACE_API_KEY=${HUGGINGFACE_API_KEY}
+      - API_KEY=${API_KEY}

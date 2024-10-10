@@ -1,0 +1,12 @@
+.env
+
+# Python字节码文件
+__pycache__/
+*.pyc
+
+# 日志文件
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
