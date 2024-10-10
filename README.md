@@ -1,6 +1,6 @@
 # Hugging Face API 代理服务
 
-这是一个使用 Flask 构建的 Hugging Face API 代理服务。它允许您使用类似 OpenAI API 的格式来访问 Hugging Face 的模型。
+这是一个使用 Flask 构建的 Hugging Face API 代理服务。它允许您使用类似 OpenAI API 的格式来访问 Hugging Face 的模型。目前来说只有Qwen/Qwen2.5-72B-Instruct 值得使用。
 
 ## 功能
 
