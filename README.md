@@ -17,7 +17,7 @@
    cd huggingface-api-proxy
    ```
 
-2. 创建 `.env` 文件并设置您的 API 密钥：
+2. 创建 `.env` 文件并设置您的 API 密钥,访问 https://huggingface.co/settings/tokens/new?globalPermissions=inference.serverless.write&tokenType=fineGrained 创建新的API token：
    ```bash
    HUGGINGFACE_API_KEY=your_actual_huggingface_api_key
    API_KEY=your_actual_custom_api_key
