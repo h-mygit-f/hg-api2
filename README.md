@@ -30,3 +30,5 @@
 
 4. 服务现在应该在 `http://localhost:5023` 上运行。
 
+5. 如果你要在newapi上使用，Base URL: `http://1.1.1.1:5023/v1/chat/completions` ，将1.1.1.1换成你自己的ip，模型：Qwen/Qwen2.5-72B-Instruct，密钥填写自己设定的 API_KEY。
+
